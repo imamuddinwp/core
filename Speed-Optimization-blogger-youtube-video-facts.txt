@@ -1,0 +1,32 @@
+Speed Optimization Blogger: 
+Lazy Load Embedded Youtube Video
+-------------------------------------------------------------
+If It Already Exists Its Well And Fine, If Not Paste The Below Jquery In Your Blogger Template Above </body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"/>
+====================
+Now For Making Youtube Video Responsive, Add The Below CSS Above </head>
+<style type='text/css'>
+/*<![CDATA[*/
+.YoutubeLazy{background-color:#000;margin-bottom:30px;position:relative;padding-top:56.25%;overflow:hidden;cursor:pointer}.YoutubeLazy img{width:100%;top:-16.84%;left:0;opacity:.7}.YoutubeLazy .YoutubeButton{width:68px;height:48px;background-color:#333;opacity:.8;box-shadow:0 0 30px rgba(0,0,0,0.6);z-index:1;border-radius:12px}.YoutubeLazy .YoutubeButton:before{content:"";border-style:solid;border-width:10px 0 10px 20px;border-color:transparent transparent transparent #fff}.YoutubeLazy img,.YoutubeLazy .YoutubeButton{cursor:pointer}.YoutubeLazy img,.YoutubeLazy iframe,.YoutubeLazy .YoutubeButton,.YoutubeLazy .YoutubeButton:before{position:absolute}.YoutubeLazy .YoutubeButton,.YoutubeLazy .YoutubeButton:before{top:50%;left:50%;transform:translate3d(-50%,-50%,0)}.YoutubeLazy iframe{height:100%;width:100%;top:0;left:0}
+/*]]>*/
+</style>
+===================
+Now At Last, Copy Paste The Below Javascript Above </body>
+<script type='text/javascript'>
+//<![CDATA[
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('3 2(a){$(".2").D(3(){m b="9://l.5.7/f/"+$(1).8("4")+"/"+a+".d";$(1).e($(p g()).h("6",b).i());$(1).j(3(){$(1).k("");$("<n>",{o:"2",6:"9://r.5.7/4/"+$(1).8("4"),t:0,u:"v; w; x-y; z; c-A-c",B:""}).C($(1))})})}!3(){2("s")}(q);',40,40,'|this|YoutubeLazy|function|embed|youtube|src|com|data|https|||picture|jpg|append|vi|Image|attr|fadeIn|click|html|img|var|iframe|id|new|jQuery|www|sddefault|frameborder|allow|accelerometer|autoplay|encrypted|media|gyroscope|in|allowfullscreen|appendTo|each'.split('|'),0,{}))
+//]]>
+</script>
+===================
+To Embed The Video To Make It Responsive And Lazily Load It.
+<div class="YoutubeLazy" data-embed="bhwyLZ4yqZw">
+  <span class="YoutubeButton"></span>
+</div>
+===================
+https://youtu.be/bhwyLZ4yqZw
+
+
+
+Thanks
+https://imamuddinwp.blogspot.com/
+https://www.techbanglainfo.com/
